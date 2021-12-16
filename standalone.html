@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>ATM Machine</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ceviche+One&family=Fruktur&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
+  <!-- Don't use this in production: -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- ----------------- Bootstrap header START ----------------- -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <style>
+    .choice {
+      background-color: #0c80f3;
+      border: 6px solid #0ff166;
+      border-radius: 10px;
+      width: 300px;
+      font-family: 'Zen Kurenaido', sans-serif; 
+      font-size: 2em;
+      text-align: center;
+    }
+    .msg{
+      color:red;
+    }
+    .labelSelect{
+      font-family: 'Zen Kurenaido', sans-serif; 
+      font-size: 2em;
+      text-align: center;
+      
+    }
+  </style>
+</head>
+
+<body>
+  <div class="p-5 bg-primary text-white text-center">
+    <h1 style="font-family: 'Fruktur', cursive; font-size: 3em">ATM Machine<span id='Today'></span></h1>
+  </div>
+  <div>
+    <br>
+    <br>
+  </div>
+  <!-- We will put our React component inside this div. -->
+  <div id="root" class="text-center"></div>
+  <!-- Load React. -->
+  <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+  <!-- Load our React component. -->
+
+  <script src="ATMImprovements.jsx" defer type="text/babel"></script>
+</body>
+
+</html>
