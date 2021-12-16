@@ -1,6 +1,6 @@
 # ATMMachine
 # Name: ATM Machine
-<img src="ATMMachine" width='300' />
+<img src="ATMMachine.JPG" width='300' />
 
 ## Description: 
 ATM Machine is a react program to perform deposit and withdrawals on an account. The improvements made to the base version are -
