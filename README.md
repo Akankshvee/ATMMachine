@@ -19,7 +19,7 @@ Use this project to play with React features like react hooks.
 There are many support portals available for JavaScript like MDN, StackOverflow, etc. You can use this forum to research various styles and ask questions.
 
 ## Roadmap: 
-The future of this project is to strikethrough on removal and add a export mechanism to save the tasks each day. 
+The future of this project is to add more account handling features like transaction history. 
 
 ## License information: 
 
